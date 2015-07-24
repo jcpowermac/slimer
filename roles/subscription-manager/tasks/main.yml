@@ -1,7 +1,7 @@
 ---
-- name: Load Credentials
-  include_vars: ~/sub_mgr_creds.yml
-  tags: sub-mgr
+#- name: Load Credentials
+#  include_vars: ~/sub_mgr_creds.yml
+#  tags: sub-mgr
 
 - name: register to RHN
   redhat_subscription:
